@@ -6,13 +6,14 @@
           content="width=devic`e-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SHOIB ANSARI's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsiveness.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobilestyles.css">
+    <link rel="stylesheet" href="css/mediaquaries.css">
     <link rel="icon" href="assets/icon.png">
 
 </head>
 <body>
-    <nav id="desktop-nav">
+    <nav id="desktop-header-nav">
         <div class="logo">Shoib Ansari</div>
         <div >
             <ul class="nav-links">
@@ -21,6 +22,24 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contacts">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="mobile-header-nav">
+        <div class="logo">Shoib Ansari</div>
+        <div class="three-line-menu">
+            <div class="three-line-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div >
+                <ul class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
