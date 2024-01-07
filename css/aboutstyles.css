@@ -1,3 +1,45 @@
 #about{
     position: relative;
 }
+
+.aboutContainer{
+    gap: 2rem;
+}
+.aboutDetailsContainer{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutContainer,
+.aboutDetailsContainer{
+    display: flex;
+}
+
+.aboutPic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+.detailsContainer{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    text-align: center;
+}
+
+.sectionContainer{
+    gap: 4rem;
+    height: 80%;
+}
+.sectionPicContainer{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
