@@ -3,6 +3,8 @@
 }
 .contactInfoUpperContainer{
     display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
