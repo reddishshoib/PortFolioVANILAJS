@@ -1,8 +1,95 @@
+@media screen   and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .aboutContainer{
+        flex-wrap: wrap;
+    }
+}
 @media screen   and (max-width: 1200px){
     #desktop-header-nav{
         display: none;
     }
     #mobile-header-nav{
         display: flex;
+    }
+    #experience, .experienceDetailsContainer{
+        margin-top: 2rem;
+    }
+    #profile, .sectionContainer{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section, .sectionContainer{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .sectionPicContainer{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .aboutContainer{
+        margin-top: 0;
+    }
+}
+
+@media screen   and (max-width: 600px){
+    #contact, footer    {
+        height: 40vh;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    #profile,
+    #about {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .aboutContainer, .contactInfoUpperContainer,.btnContainer{
+        flex-wrap: wrap;
+    }
+    .contactInfoContainer{
+        margin: 5px;
+    }
+    .contactInfoContainer p, .nav-links li a{
+        font-size: 1rem;
+
+    }
+    .experienceSubTitle{
+        font-size: 1.5rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .sectionPicContainer{
+        width: auto;
+        height: 46vh;
+        justify-content: center;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .textContainer{
+        text-align: justify;
     }
 }

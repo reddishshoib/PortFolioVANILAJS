@@ -8,10 +8,13 @@
     <title>SHOIB ANSARI's Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mobilestyles.css">
-    <link rel="stylesheet" href="css/mediaquaries.css">
     <link rel="stylesheet" href="css/socialStyles.css">
     <link rel="stylesheet" href="css/aboutstyles.css">
     <link rel="stylesheet" href="css/experiencestyle.css">
+    <link rel="stylesheet" href="css/projectsstyle.css">
+    <link rel="stylesheet" href="css/contactstyle.css">
+    <link rel="stylesheet" href="css/footerstyle.css">
+    <link rel="stylesheet" href="css/mediaquaries.css">
     <link rel="icon" href="assets/icon.png">
 
 </head>
@@ -23,7 +26,7 @@
                     <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -40,7 +43,7 @@
                     <li><a href="#about" onclick="toggleMenu()">About</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                    <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -49,7 +52,9 @@
         <div class="sectionPicContainer">
             <img
                     src="assets/avatar.png"
-                    width='400' alt="Shoib's Profile Avatar" >
+                    width='400'
+                    alt="Shoib's Profile Avatar"
+            />
         </div>
         <div class="sectionText">
             <p class="sectionTextp1">Hello I'm</p>
@@ -185,8 +190,80 @@
         />
     </section>
     <section id="projects">
-
+        <p class="sectionTextp1"></p>
+        <h1 class="title">Projects</h1>
+        <div class="experienceDetailsContainer">
+            <div class="detailsContainer colorContainer">
+<!--                <div class="articleContainer">-->
+<!--                    <img  src="./assets/project-1.png" alt="project 1" class="projectImg"/>-->
+<!--                </div>-->
+                <h2 class="experienceSubTitle projectTitle">Portfolio Website</h2>
+                <button class="btn btn-color-2 projectBtn" onclick="window.open('http://reddishshoib.github.io/PortFolioVANILAJS', '_blank')">
+                    Live Demo
+                </button>
+                <button class="btn btn-color-2 projectBtn" onclick="window.open('https://github.com/reddishshoib/PortFolioVANILAJS/', '_blank')">
+                    Source Code
+                </button>
+            </div>
+        </div>
+        <img
+                src="./assets/arrow.png"
+                alt="Arrow icon"
+                class="icon arrow"
+                onclick="location.href='./#contact'"
+        />
     </section>
+    <section id="contact">
+        <p class="sectionTextp1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contactInfoUpperContainer">
+            <div class="contactInfoContainer">
+                <img
+                        src="./assets/email.png"
+                        alt="email me"
+                        class="icon contactIcon emailIcon"
+                >
+                <p><a href="mailto:reddishshoib123@gmail.com" target="_blank">Gmail</a></p>
+            </div>
+            <div class="contactInfoContainer">
+                <img
+                        src="./assets/linkedin.png"
+                        alt="linkedin"
+                        class="icon contactIcon"
+                >
+                <p><a href="https://in.linkedin.com/in/reddish-shoib" target="_blank">LinkedIn</a></p>
+            </div>
+            <div class="contactInfoContainer">
+                <img
+                        src="./assets/github.png"
+                        alt="github"
+                        class="icon contactIcon"
+                >
+                <p><a href="https://github.com/reddishshoib/" target="_blank">Gmail</a></p>
+            </div>
+        </div>
+        <img
+                src="./assets/arrow.png"
+                alt="Arrow icon"
+                class="icon arrow"
+                style="transform: rotate(180deg);"
+                onclick="location.href='./#profile'"
+        />
+    </section>
+
+    <footer>
+        <nav>
+            <nav class="navLinksContainer">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </nav>
+        <p>Copyright &#169; 2023 Shoib Ansari. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
